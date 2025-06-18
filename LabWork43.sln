@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clicker", "Clicker\Clicker.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shooter", "Shooter\Shooter.csproj", "{40BC484F-CD92-47B4-AED8-37BC5A7B0472}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arkanoid", "Arkanoid\Arkanoid.csproj", "{AFBCA470-F2EA-4C63-B2EF-03E23E119BD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{40BC484F-CD92-47B4-AED8-37BC5A7B0472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40BC484F-CD92-47B4-AED8-37BC5A7B0472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40BC484F-CD92-47B4-AED8-37BC5A7B0472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFBCA470-F2EA-4C63-B2EF-03E23E119BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBCA470-F2EA-4C63-B2EF-03E23E119BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBCA470-F2EA-4C63-B2EF-03E23E119BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBCA470-F2EA-4C63-B2EF-03E23E119BD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

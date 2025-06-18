@@ -22,12 +22,12 @@ namespace Shooter
             InitializeComponent();
 
             _spawnEnemyTimer.Interval = TimeSpan.FromMilliseconds(500);
-            _spawnEnemyTimer.Start();
             _spawnEnemyTimer.Tick += SpawnEnemyTimer_Tick;
+            _spawnEnemyTimer.Start();
 
             _timerMove.Interval = TimeSpan.FromMilliseconds(50);
-            _timerMove.Start();
             _timerMove.Tick += MoveEnemyTimer_Tick;
+            _timerMove.Start();
         }
 
         private void MoveEnemyTimer_Tick(object? sender, EventArgs e)
