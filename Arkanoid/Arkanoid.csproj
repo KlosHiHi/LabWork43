@@ -13,6 +13,7 @@
     <None Remove="Fonts\SArcade.ttf" />
     <None Remove="Images\background.jpg" />
     <None Remove="Images\racket.png" />
+    <None Remove="Images\snowball.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +24,22 @@
     <Resource Include="Fonts\SArcade.ttf" />
     <Resource Include="Images\background.jpg" />
     <Resource Include="Images\racket.png" />
+    <Resource Include="Images\snowball.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
 
 </Project>

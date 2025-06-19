@@ -36,8 +36,11 @@
             </Grid.RowDefinitions>
             <MediaElement x:Name="BackgroundMedieElement" Stretch="UniformToFill" Grid.RowSpan="3" HorizontalAlignment="Center" LoadedBehavior="Manual" MediaEnded="BackgroundMedieElement_MediaEnded"/>
 
-            <Image Source="/Images/cookie.png" Stretch="Uniform" Height="175" Width="175" VerticalAlignment="Center" Grid.Row="1"/>
-            <Ellipse x:Name="CookieEllipse" Cursor="Hand" Fill="Transparent" Height="160" Width="160" VerticalAlignment="Center" MouseDown="CookieEllipse_MouseDown" Grid.Row="1"/>
+            <Ellipse x:Name="CookieEllipse" Cursor="Hand" Height="170" Width="170" VerticalAlignment="Center" MouseDown="CookieEllipse_MouseDown" Grid.Row="1">
+                <Ellipse.Fill>
+                    <ImageBrush ImageSource="/Images/cookie.png"/>
+                </Ellipse.Fill>
+            </Ellipse>
 
             <TextBlock x:Name="CookiesQuantityTextBlock" Text="печенье : 0" Grid.Row="2"/>
         </Grid>
